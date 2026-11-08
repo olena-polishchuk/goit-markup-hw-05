@@ -84,12 +84,10 @@
   letter-spacing: 0.04em;
   color: #fff;
   outline: transparent;
-  transition: border 250ms;
 }
 
-.footer-form-input:hover,
-.footer-form-input:focus {
-  border: 1px solid #31d0aa;
+.footer-form-input:focus-within {
+  border-color: #31d0aa;
 }
 
 .footer-form-input::placeholder {
