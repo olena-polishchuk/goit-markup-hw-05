@@ -115,3 +115,10 @@ address {
 .logo-footer {
   color: #4d5ae5;
 }
+
+/*  Form */
+
+.footer-form-input,
+.footer-form-button {
+  font-family: inherit;
+}

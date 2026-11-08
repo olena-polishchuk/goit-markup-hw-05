@@ -24,7 +24,6 @@
 
 .socials-container {
   margin-left: 120px;
-  margin-right: auto;
 }
 
 .socials-title {
@@ -54,5 +53,64 @@
 
 .socials-link:hover,
 .socials-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+  max-width: 453px;
+}
+
+.footer-form-label {
+  width: 100%;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-form-input {
+  border: 1px solid #fff;
+  background-color: #2e2f42;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+  outline: transparent;
+  transition: border 250ms;
+}
+
+.footer-form-input:hover,
+.footer-form-input:focus {
+  border: 1px solid #31d0aa;
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.footer-form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  background-color: #4d5ae5;
+  transition: background-color 250ms;
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
   background-color: #31d0aa;
 }
